@@ -1,0 +1,10 @@
+.goal-item {
+  list-style: none;
+  width: 70%;
+  background-color: #8b005d;
+  max-width: 95%;
+  font-size: 14px;
+  padding: 0.5rem 2rem;
+  color: white;
+  margin-top: 0.75rem;
+}

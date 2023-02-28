@@ -1,0 +1,49 @@
+.todo {
+  margin: 0.5rem 0;
+}
+
+.todo label {
+  font-weight: bolder;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.todo input {
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  font: inherit;
+  line-height: 1.5rem;
+  padding: 0 0.25rem;
+}
+
+.todo input:focus {
+  outline: none;
+  background: #fad0ec;
+  border-color: #8b005d;
+}
+
+.todo-submit button{
+  background-color: #8b005d;
+  font:10cm;
+  padding: 0.45rem 1.5rem;
+  color: white;
+  border: #fad0ec;
+  
+}
+
+.todo-submit button:focus {
+  outline: none;
+}
+
+.todo-submit button:hover,
+.todo-submit button:active {
+  background: #ac0e77;
+  border-color: #ac0e77;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+}
+
+.todo.invalid input{
+  border-color: red;
+  background-color: wheat;
+}
